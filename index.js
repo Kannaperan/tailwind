@@ -8,7 +8,7 @@ import Login from "./Login";
 
 import Signup from "./Signup";
 
-import "./index.css";
+import "./styles.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -17,7 +17,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />}></Route >
-        <Route path="/Signup" element={<Signup />}></Route>
+        <Route path="/signup" element={<Signup />}></Route>
       </Routes>
     </BrowserRouter>
   </div>
